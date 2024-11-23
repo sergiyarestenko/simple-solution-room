@@ -14,5 +14,22 @@ export default defineNuxtConfig({
         },
       },
     ],
+    "@nuxt/image",
+    "@pinia/nuxt",
+    "nuxt-typed-router",
+    "nuxt-file-storage",
   ],
+  css: ["~/assets/scss/global.scss"],
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `
+          @use "~/assets/scss/_vars.scss" as *;
+          @use "~/assets/scss/_mixins.scss" as *;
+          `
+        }
+      },
+    },
+  },
 });

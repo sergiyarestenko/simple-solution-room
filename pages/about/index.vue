@@ -3,11 +3,11 @@ definePageMeta({
   layout: "not-main",
 });
 useSeoMeta({
-    title: "SEOTitle",
-    ogTitle: "SEOOgTitle",
-    description: "SEODescription",
-    ogDescription: "SEOOgDescription"
-})
+  title: "SEOTitle",
+  ogTitle: "SEOOgTitle",
+  description: "SEODescription",
+  ogDescription: "SEOOgDescription",
+});
 </script>
 <template>
   <div>
@@ -15,8 +15,8 @@ useSeoMeta({
     <h2>About page</h2>
   </div>
 </template>
-<style>
+<style lang="scss">
 h1 {
-  font-family: "Montserrat", sans-serif;
+  @include Title($font-primary-size * 4);
 }
 </style>

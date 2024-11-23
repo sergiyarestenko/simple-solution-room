@@ -1,0 +1,6 @@
+@mixin Title ($_font-size: 32px) {
+  font-size: $_font-size;
+  font-weight: 500;
+  line-height: $_font-size;
+  letter-spacing: -0.03em;
+}

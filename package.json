@@ -15,11 +15,17 @@
     "eslint": "^9.15.0",
     "eslint-config-prettier": "^9.1.0",
     "nuxt": "^3.14.159",
+    "pinia": "^2.2.6",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
+    "@nuxt/image": "^1.8.1",
+    "@pinia/nuxt": "^0.7.0",
     "@vueuse/nuxt": "^11.2.0",
-    "prettier": "^3.3.3"
+    "nuxt-file-storage": "^0.2.9",
+    "nuxt-typed-router": "^3.7.0",
+    "prettier": "^3.3.3",
+    "sass": "^1.81.0"
   }
 }
