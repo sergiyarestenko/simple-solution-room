@@ -1,7 +1,7 @@
 <template>
     <div>
       <h1>Hello world!</h1>
-      <h2>Index page</h2>
+      <h2>Index page!!!</h2>
     </div>
   </template>
   <style>
